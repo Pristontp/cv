@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <p><strong>Cell:</strong> 073 0506 784</p>
+    <p><strong>Email:</strong> pristontp@gmail.com</p>
+    <table>
+        <tr>
+            <td><strong>Address:</strong></td>
+            <td>3099 Rabothata Street</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Wattville</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Benoni</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>1501</td>
+        </tr>
+    </table>
+    <hr>
+    <p>Alternatively, kindly leave your details below, so I can get back to you.</p>
+
+    <form action="mailto:pristontp@gmail.com" method="post" enctype="text/plain">
+        <label><strong>Your Name:</strong></label>
+        <input type="text" name="yourName"><br>
+        <label><strong>Email:</strong></label>
+        <input type="email" name="yourEmail"><br>
+        <label><strong>Phone Number:</strong></label>
+        <input type="text"><br>
+        <label><strong>Your Message:</strong></label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <label>Do you want to upload a document?</label>
+        <input type="checkbox"><br>
+        <input type="file"
+        id="input" multiple
+        accept=".doc,.docx,.xml,application/msword,application/vnd.openxmlformats-
+        officedocument.wordprocessingml.document"/>
+        <input type="submit">
+    </form>
+</body>
+</html>
